@@ -27,7 +27,7 @@ public class APITest {
 	    
 	    //step3:validate status code
 	    ExtentManager.logStep("Validating API response status code");
-	    boolean isStatusCodeValid=APIUtility.validateStatusCode(res, 201);
+	    boolean isStatusCodeValid=APIUtility.validateStatusCode(res, 200);
         
 	    softassert.assertTrue(isStatusCodeValid, "Status code is not as Expected");
 	    

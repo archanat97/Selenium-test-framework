@@ -143,7 +143,7 @@ public class ActionDriver {
 			try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(by));
 			}catch (Exception e) {
-				Logger.error("element not visibleqqqq" +e.getMessage());
+				Logger.error("element not visible" +e.getMessage());
 			}
 		}
 		
